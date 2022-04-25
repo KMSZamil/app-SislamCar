@@ -3,17 +3,17 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:sislam_cars_app/controller/exchange_controller.dart';
-import 'package:sislam_cars_app/model/brands_model.dart';
-import 'package:sislam_cars_app/model/conditions_model.dart';
-import 'package:sislam_cars_app/model/district_model.dart';
-import 'package:sislam_cars_app/model/fuel_types_model.dart';
-import 'package:sislam_cars_app/model/models_model.dart';
-import 'package:sislam_cars_app/model/registration_serial_model.dart';
-import 'package:sislam_cars_app/model/thana_model.dart';
-import 'package:sislam_cars_app/utility/bottom_nav_bar.dart';
-import 'package:sislam_cars_app/utility/drawer_view.dart';
-import 'package:sislam_cars_app/utility/syncronize_data.dart';
+import 'package:sislam_car/controller/exchange_controller.dart';
+import 'package:sislam_car/model/brands_model.dart';
+import 'package:sislam_car/model/conditions_model.dart';
+import 'package:sislam_car/model/district_model.dart';
+import 'package:sislam_car/model/fuel_types_model.dart';
+import 'package:sislam_car/model/models_model.dart';
+import 'package:sislam_car/model/registration_serial_model.dart';
+import 'package:sislam_car/model/thana_model.dart';
+import 'package:sislam_car/utility/bottom_nav_bar.dart';
+import 'package:sislam_car/utility/drawer_view.dart';
+import 'package:sislam_car/utility/syncronize_data.dart';
 
 class ExchangeSubmitView extends StatefulWidget {
   const ExchangeSubmitView({Key? key}) : super(key: key);

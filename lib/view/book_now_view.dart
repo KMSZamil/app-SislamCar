@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sislam_cars_app/controller/book_now_controller.dart';
-import 'package:sislam_cars_app/http/url.dart';
-import 'package:sislam_cars_app/model/district_model.dart';
-import 'package:sislam_cars_app/model/thana_model.dart';
-import 'package:sislam_cars_app/utility/bottom_nav_bar.dart';
-import 'package:sislam_cars_app/utility/drawer_view.dart';
-import 'package:sislam_cars_app/utility/syncronize_data.dart';
+import 'package:sislam_car/controller/book_now_controller.dart';
+import 'package:sislam_car/http/url.dart';
+import 'package:sislam_car/model/district_model.dart';
+import 'package:sislam_car/model/thana_model.dart';
+import 'package:sislam_car/utility/bottom_nav_bar.dart';
+import 'package:sislam_car/utility/drawer_view.dart';
+import 'package:sislam_car/utility/syncronize_data.dart';
 
 class BookNowView extends StatefulWidget {
   const BookNowView({Key? key}) : super(key: key);

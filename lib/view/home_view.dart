@@ -3,17 +3,17 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sislam_cars_app/controller/home_controller.dart';
-import 'package:sislam_cars_app/model/brands_model.dart';
-import 'package:sislam_cars_app/model/conditions_model.dart';
-import 'package:sislam_cars_app/model/fuel_types_model.dart';
-import 'package:sislam_cars_app/model/models_model.dart';
-import 'package:sislam_cars_app/utility/bottom_nav_bar.dart';
-import 'package:sislam_cars_app/utility/drawer_view.dart';
-import 'package:sislam_cars_app/view/buy/buy_view.dart';
-import 'package:sislam_cars_app/view/data/tabbar_data.dart';
-import 'package:sislam_cars_app/view/exchange/exchange_view.dart';
-import 'package:sislam_cars_app/view/sell/sell_view.dart';
+import 'package:sislam_car/controller/home_controller.dart';
+import 'package:sislam_car/model/brands_model.dart';
+import 'package:sislam_car/model/conditions_model.dart';
+import 'package:sislam_car/model/fuel_types_model.dart';
+import 'package:sislam_car/model/models_model.dart';
+import 'package:sislam_car/utility/bottom_nav_bar.dart';
+import 'package:sislam_car/utility/drawer_view.dart';
+import 'package:sislam_car/view/buy/buy_view.dart';
+import 'package:sislam_car/view/data/tabbar_data.dart';
+import 'package:sislam_car/view/exchange/exchange_view.dart';
+import 'package:sislam_car/view/sell/sell_view.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({Key? key}) : super(key: key);

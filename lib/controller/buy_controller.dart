@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sislam_cars_app/http/request.dart';
-import 'package:sislam_cars_app/http/url.dart';
-import 'package:sislam_cars_app/model/buy_cars_model.dart';
-import 'package:sislam_cars_app/utility/syncronize_data.dart';
+import 'package:sislam_car/http/request.dart';
+import 'package:sislam_car/http/url.dart';
+import 'package:sislam_car/model/buy_cars_model.dart';
+import 'package:sislam_car/utility/syncronize_data.dart';
 
 class BuyController extends GetxController {
   var dashboardBuyCarsListData = <BuyCars>[].obs;

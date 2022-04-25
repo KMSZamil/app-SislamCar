@@ -2,11 +2,11 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sislam_cars_app/http/request.dart';
-import 'package:sislam_cars_app/http/url.dart';
-import 'package:sislam_cars_app/model/district_model.dart';
-import 'package:sislam_cars_app/model/thana_model.dart';
-import 'package:sislam_cars_app/utility/syncronize_data.dart';
+import 'package:sislam_car/http/request.dart';
+import 'package:sislam_car/http/url.dart';
+import 'package:sislam_car/model/district_model.dart';
+import 'package:sislam_car/model/thana_model.dart';
+import 'package:sislam_car/utility/syncronize_data.dart';
 
 class BookNowController extends GetxController {
   var action = false.obs;

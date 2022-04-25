@@ -3,12 +3,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:sislam_cars_app/controller/exchange_controller.dart';
-import 'package:sislam_cars_app/controller/search_controller.dart';
-import 'package:sislam_cars_app/http/url.dart';
-import 'package:sislam_cars_app/res/colors.dart';
-import 'package:sislam_cars_app/utility/bottom_nav_bar.dart';
-import 'package:sislam_cars_app/utility/drawer_view.dart';
+import 'package:sislam_car/controller/exchange_controller.dart';
+import 'package:sislam_car/controller/search_controller.dart';
+import 'package:sislam_car/http/url.dart';
+import 'package:sislam_car/res/colors.dart';
+import 'package:sislam_car/utility/bottom_nav_bar.dart';
+import 'package:sislam_car/utility/drawer_view.dart';
 
 class ExchangeSearchView extends StatefulWidget {
   const ExchangeSearchView({Key? key}) : super(key: key);

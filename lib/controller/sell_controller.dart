@@ -4,16 +4,16 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sislam_cars_app/http/request.dart';
-import 'package:sislam_cars_app/http/url.dart';
-import 'package:sislam_cars_app/model/brands_model.dart';
-import 'package:sislam_cars_app/model/conditions_model.dart';
-import 'package:sislam_cars_app/model/district_model.dart';
-import 'package:sislam_cars_app/model/fuel_types_model.dart';
-import 'package:sislam_cars_app/model/models_model.dart';
-import 'package:sislam_cars_app/model/registration_serial_model.dart';
-import 'package:sislam_cars_app/model/thana_model.dart';
-import 'package:sislam_cars_app/utility/syncronize_data.dart';
+import 'package:sislam_car/http/request.dart';
+import 'package:sislam_car/http/url.dart';
+import 'package:sislam_car/model/brands_model.dart';
+import 'package:sislam_car/model/conditions_model.dart';
+import 'package:sislam_car/model/district_model.dart';
+import 'package:sislam_car/model/fuel_types_model.dart';
+import 'package:sislam_car/model/models_model.dart';
+import 'package:sislam_car/model/registration_serial_model.dart';
+import 'package:sislam_car/model/thana_model.dart';
+import 'package:sislam_car/utility/syncronize_data.dart';
 import 'package:http/http.dart' as http;
 
 class SellController extends GetxController {

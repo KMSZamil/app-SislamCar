@@ -1,4 +1,4 @@
-import 'package:sislam_cars_app/http/url.dart';
+import 'package:sislam_car/http/url.dart';
 import 'package:http/http.dart' as http;
 
 class Request {

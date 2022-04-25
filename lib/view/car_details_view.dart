@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sislam_cars_app/controller/car_details_contoller.dart';
-import 'package:sislam_cars_app/http/url.dart';
-import 'package:sislam_cars_app/utility/bottom_nav_bar.dart';
-import 'package:sislam_cars_app/utility/drawer_view.dart';
+import 'package:sislam_car/controller/car_details_contoller.dart';
+import 'package:sislam_car/http/url.dart';
+import 'package:sislam_car/utility/bottom_nav_bar.dart';
+import 'package:sislam_car/utility/drawer_view.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class CarDetailsView extends StatefulWidget {

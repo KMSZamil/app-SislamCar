@@ -1,22 +1,22 @@
 import 'package:get/get.dart';
-import 'package:sislam_cars_app/view/about_us_view.dart';
-import 'package:sislam_cars_app/view/blog_view.dart';
-import 'package:sislam_cars_app/view/book_now_view.dart';
-import 'package:sislam_cars_app/view/buy/buy_cars_view.dart';
-import 'package:sislam_cars_app/view/car_details_view.dart';
-import 'package:sislam_cars_app/view/contact_us_view.dart';
-import 'package:sislam_cars_app/view/exchange/exchange_car_details_view.dart';
-import 'package:sislam_cars_app/view/exchange/exchange_cars_view.dart';
-import 'package:sislam_cars_app/view/exchange/exchange_search_view.dart';
-import 'package:sislam_cars_app/view/exchange/exchange_submit_view.dart';
-import 'package:sislam_cars_app/view/help_center_view.dart';
+import 'package:sislam_car/view/about_us_view.dart';
+import 'package:sislam_car/view/blog_view.dart';
+import 'package:sislam_car/view/book_now_view.dart';
+import 'package:sislam_car/view/buy/buy_cars_view.dart';
+import 'package:sislam_car/view/car_details_view.dart';
+import 'package:sislam_car/view/contact_us_view.dart';
+import 'package:sislam_car/view/exchange/exchange_car_details_view.dart';
+import 'package:sislam_car/view/exchange/exchange_cars_view.dart';
+import 'package:sislam_car/view/exchange/exchange_search_view.dart';
+import 'package:sislam_car/view/exchange/exchange_submit_view.dart';
+import 'package:sislam_car/view/help_center_view.dart';
 
-import 'package:sislam_cars_app/view/home_view.dart';
-import 'package:sislam_cars_app/view/inbox_view.dart';
-import 'package:sislam_cars_app/view/search_view.dart';
-import 'package:sislam_cars_app/view/sell/sell_submit_view.dart';
-import 'package:sislam_cars_app/view/splash_view.dart';
-import 'package:sislam_cars_app/view/watch_channel_view.dart';
+import 'package:sislam_car/view/home_view.dart';
+import 'package:sislam_car/view/inbox_view.dart';
+import 'package:sislam_car/view/search_view.dart';
+import 'package:sislam_car/view/sell/sell_submit_view.dart';
+import 'package:sislam_car/view/splash_view.dart';
+import 'package:sislam_car/view/watch_channel_view.dart';
 
 class RouterRoute {
   static final route = [

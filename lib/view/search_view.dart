@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sislam_cars_app/controller/buy_controller.dart';
-import 'package:sislam_cars_app/controller/search_controller.dart';
-import 'package:sislam_cars_app/http/url.dart';
-import 'package:sislam_cars_app/utility/bottom_nav_bar.dart';
-import 'package:sislam_cars_app/utility/drawer_view.dart';
+import 'package:sislam_car/controller/buy_controller.dart';
+import 'package:sislam_car/controller/search_controller.dart';
+import 'package:sislam_car/http/url.dart';
+import 'package:sislam_car/utility/bottom_nav_bar.dart';
+import 'package:sislam_car/utility/drawer_view.dart';
 
 class SearchView extends StatefulWidget {
   const SearchView({Key? key}) : super(key: key);

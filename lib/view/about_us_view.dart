@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sislam_cars_app/utility/bottom_nav_bar.dart';
-import 'package:sislam_cars_app/utility/drawer_view.dart';
+import 'package:sislam_car/utility/bottom_nav_bar.dart';
+import 'package:sislam_car/utility/drawer_view.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class AboutUsView extends StatefulWidget {

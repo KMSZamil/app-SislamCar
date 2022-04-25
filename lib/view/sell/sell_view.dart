@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sislam_cars_app/view/sell/sell_submit_view.dart';
+import 'package:sislam_car/view/sell/sell_submit_view.dart';
 
 class SellView extends StatefulWidget {
   const SellView({Key? key}) : super(key: key);

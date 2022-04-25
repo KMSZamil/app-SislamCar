@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sislam_cars_app/http/request.dart';
-import 'package:sislam_cars_app/model/search_model.dart';
-import 'package:sislam_cars_app/utility/syncronize_data.dart';
+import 'package:sislam_car/http/request.dart';
+import 'package:sislam_car/model/search_model.dart';
+import 'package:sislam_car/utility/syncronize_data.dart';
 
 class SearchController extends GetxController {
   var dashboardBuyCarsListData = <SearchData>[].obs;

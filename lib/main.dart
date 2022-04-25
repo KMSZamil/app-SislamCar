@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sislam_cars_app/res/colors.dart';
-import 'package:sislam_cars_app/utility/router.dart';
+import 'package:sislam_car/res/colors.dart';
+import 'package:sislam_car/utility/router.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
