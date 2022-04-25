@@ -84,6 +84,21 @@ class DrawerView extends StatelessWidget {
               },
             ),
           ),
+          Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: <Widget>[
+                ListTile(
+                  title: Text('Developed by Raisa Web Cloud', style: TextStyle(color: Colors.grey, fontSize: 13),),
+                  onTap: () {
+                    final Uri _url =
+                    Uri.parse('https://raisawebcloud.com/');
+                    _launcherUrl(_url);
+                  },
+                ),
+
+              ],
+          )
         ],
       ),
     );
